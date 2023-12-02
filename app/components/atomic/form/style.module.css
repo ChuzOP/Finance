@@ -1,0 +1,21 @@
+.icon > svg > path {
+  fill: #666666;
+  transition: all 500ms;
+}
+.icon > svg > g > path {
+  fill: #666666;
+  transition: all 500ms;
+}
+
+.icon:hover svg g path {
+  fill: #191919;
+  transition: all 500ms;
+}
+
+input:focus-within + .icon > svg > path {
+  fill: #191919;
+}
+
+input:focus-within + .icon > svg > g > path {
+  fill: #191919;
+}

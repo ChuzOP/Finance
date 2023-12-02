@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Finanzas Personales App
 
-## Getting Started
+Una aplicación de finanzas personales diseñada para gestionar de manera efectiva los ingresos y gastos tanto mensuales como anuales. También incluye la capacidad de crear presupuestos mensuales y configurar ingresos y gastos programados de forma recurrente. Además, ofrece gráficos y tablas para un seguimiento detallado de las transacciones.
 
-First, run the development server:
+## Funcionalidades:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Gestión de Ingresos y Egresos:**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  - Formularios para ingresos y gastos.
+  - Tablas de datos detalladas.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Presupuestos:**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+  - Divide ingresos y egresos mensuales en porcentajes.
 
-## Learn More
+- **Análisis de Datos:**
 
-To learn more about Next.js, take a look at the following resources:
+  - Gráficas de ingresos y egresos mensuales y anuales.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Autenticación de Usuarios.**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Gestión de Inversiones.**
 
-## Deploy on Vercel
+## Tecnologías Utilizadas:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- TypeScript
+- React
+- Next.js
+- Tailwind CSS
+- MySQL
+- Node.js
+- AWS RDS
+- shadcn
