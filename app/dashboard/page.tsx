@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import { Header } from "../components/organisms";
 
 const DashboardPage = () => {
   return (
-    <div>DashboardPage</div>
-  )
-}
+    <div>
+      <Header title="Dashboard" />
+    </div>
+  );
+};
 
-export default DashboardPage
+export default DashboardPage;

@@ -1,4 +1,5 @@
 import { SideNav } from "../components/organisms";
+import { Header } from "../components/organisms";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -6,7 +7,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <div className="w-full flex-none md:w-[280px]">
         <SideNav />
       </div>
-      <div className="flex-grow p-6 md:overflow-y-auto md:p-12">{children}</div>
+      <div className="flex-grow px-6 pt-[68px] md:overflow-y-auto bg-backgrounds-gray pb-6">
+        {children}
+      </div>
     </div>
   );
 }

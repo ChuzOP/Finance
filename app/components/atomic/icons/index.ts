@@ -10,3 +10,7 @@ export * from "./Analytics";
 export * from "./Settings";
 export * from './Profile';
 export * from './Logout';
+export * from './Search';
+export * from './Plus';
+export * from './Efectivo';
+export * from './SmallDot';

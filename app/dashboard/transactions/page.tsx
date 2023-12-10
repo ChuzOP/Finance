@@ -1,13 +1,13 @@
 import { Header } from "@/app/components/organisms";
 import React from "react";
 import { SearchInput, ActionButton } from "../../components/atomic";
-import { Cuentas } from "../../components/templates";
+import { Trasacciones } from "../../components/templates";
 
 const AccountsPage = () => {
   return (
     <div>
-      <Header title="Cuentas" />
-      <Cuentas />
+      <Header title="Transacciones" />
+      <Trasacciones />
     </div>
   );
 };
