@@ -31,7 +31,7 @@ export const ActionButton = ({
     <button
       className={clsx(
         `
-          relative border rounded-lg p-4 text-base font-semibold tracking-wider shadow-02 overflow-hidden flex justify-start items-center gap-[14px]
+          relative border rounded-lg p-4 text-base font-semibold tracking-tighter shadow-02 overflow-hidden flex justify-start items-center gap-[14px]
           disabled:opacity-75 disabled:cursor-not-allowed
         `,
         {

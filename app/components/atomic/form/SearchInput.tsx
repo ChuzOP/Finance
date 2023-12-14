@@ -18,7 +18,9 @@ type props = React.DetailedHTMLProps<
 export const SearchInput = ({
   value,
   className,
-  onChange,
+  onChange = (e) => {
+    console.log(e.target.value);
+  },
   disabled,
   ...rest
 }: props) => {

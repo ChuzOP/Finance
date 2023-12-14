@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { Eye, Input, Mail, Button } from "../../atomic";
+import { useRouter } from "next/navigation";
 
 export const LoginForm = () => {
   const [formData, setFormData] = useState({
@@ -12,6 +13,8 @@ export const LoginForm = () => {
     password: "",
   });
   const [typePassword, setTypePassword] = useState(false);
+
+  const router = useRouter();
 
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -37,7 +40,7 @@ export const LoginForm = () => {
         placeholder="********"
         type={typePassword ? "text" : "password"}
       />
-      <Button onClick={() => console.log("submit")}>Login</Button>
+      <Button onClick={() => router.push("/dashboard")}>Login</Button>
     </div>
   );
 };

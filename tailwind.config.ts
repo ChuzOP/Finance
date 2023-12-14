@@ -17,6 +17,8 @@ const config: Config = {
           whiteThin: "rgba(255, 255, 255, 0.7)",
           grayDisabled: "rgba(255, 255, 255, 0.08)",
           edit: "#68ADFE",
+          greenThin: "rgba(77, 175, 110, 0.30)",
+          redThin: "rgba(231, 61, 28, 0.30)",
         },
         backgrounds: {
           black: "#191919",
@@ -34,7 +36,8 @@ const config: Config = {
         },
       },
       gradients: {
-        goldLarge: "linear-gradient(90deg, #C2922E 0%, #D49B16 25%, #FFF488 59.9%, #FED44D 100%)",
+        goldLarge:
+          "linear-gradient(90deg, #C2922E 0%, #D49B16 25%, #FFF488 59.9%, #FED44D 100%)",
       },
     },
   },

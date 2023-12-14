@@ -2,7 +2,11 @@ import React from "react";
 import { iconModel } from "./iconModel";
 import clsx from "clsx";
 
-export const SmallDot = ({ className, onClick }: iconModel) => {
+export const SmallDot = ({
+  className,
+  onClick,
+  color = "#9F9F9F",
+}: iconModel) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +21,7 @@ export const SmallDot = ({ className, onClick }: iconModel) => {
         cy="2"
         r="1.5"
         transform="rotate(-90 1.5 2)"
-        fill="#9F9F9F"
+        fill={color}
       />
     </svg>
   );

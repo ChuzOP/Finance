@@ -19,6 +19,7 @@ type props = React.DetailedHTMLProps<
   thin?: boolean
   normal?: boolean
   bold?: boolean
+  semibold?: boolean
   underline?: boolean
   italic?: boolean
   className?: string
@@ -76,6 +77,7 @@ export const Text = ({
   underline = false,
   italic = false,
   thin = false,
+  semibold = false,
   normal,
   children,
   className,
@@ -89,6 +91,7 @@ export const Text = ({
         {
             'font-thin': thin,
             'font-normal': normal,
+            'font-semibold': semibold,
             'font-bold': bold,
             'underline': underline,
             'italic': italic,
